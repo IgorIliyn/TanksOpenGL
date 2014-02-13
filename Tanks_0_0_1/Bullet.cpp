@@ -8,7 +8,7 @@ Bullet::Bullet():bType(BT_LITE), bSpeed(3.f), bX(0.f), bY(0.f), bDirection(D_UP)
 
 Bullet::~Bullet()
 {
-
+	//todo
 }
 
 void Bullet::loadTextures()
