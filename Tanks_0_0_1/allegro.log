@@ -1,0 +1,371 @@
+system   D            wsystem.c:583  maybe_parent_dir                 [   0.00056] Also searching C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\
+system   D            wsystem.c:633  _al_win_safe_load_library        [   0.00085] PathFindOnPath found: C:\Windows\system32\d3d9.dll
+system   D            wsystem.c:544  load_library_at_path             [   0.00087] Calling LoadLibrary C:\Windows\system32\d3d9.dll
+system   I            wsystem.c:547  load_library_at_path             [   0.01075] Loaded C:\Windows\system32\d3d9.dll
+d3d      I         d3d_disp.cpp:696  _al_d3d_init_display             [   0.04220] Render-to-texture: 1
+system   I             system.c:252  al_install_system                [   0.04225] Allegro version: 5.0.10
+audio-dsound D           dsound.cpp:244  _dsound_open                     [   0.04240] Loading DirectSound module
+system   D            wsystem.c:583  maybe_parent_dir                 [   0.04250] Also searching C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\
+system   D            wsystem.c:633  _al_win_safe_load_library        [   0.04272] PathFindOnPath found: C:\Windows\system32\dsound.dll
+system   D            wsystem.c:544  load_library_at_path             [   0.04273] Calling LoadLibrary C:\Windows\system32\dsound.dll
+system   I            wsystem.c:547  load_library_at_path             [   0.04905] Loaded C:\Windows\system32\dsound.dll
+audio-dsound I           dsound.cpp:261  _dsound_open                     [   0.04915] Starting DirectSound...
+audio-dsound D           dsound.cpp:271  _dsound_open                     [   0.10979] DirectSoundCreate8 succeeded
+audio    I              audio.c:288  do_install_audio                 [   0.11122] Using DirectSound driver
+audio-dsound D           dsound.cpp:306  _dsound_allocate_voice           [   0.11126] Allocating voice
+audio-dsound D           dsound.cpp:365  _dsound_allocate_voice           [   0.11128] Allocated voice
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11130] added dtor for object 002D44B8, func 5CF0253B
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11133] added dtor for object 002D5C68, func 5CF02941
+audio-dsound D           dsound.cpp:462  _dsound_start_voice              [   0.11135] Starting voice
+audio-dsound D           dsound.cpp:491  _dsound_start_voice              [   0.11136] CreateSoundBuffer
+audio-dsound D           dsound.cpp:500  _dsound_start_voice              [   0.11232] CreateSoundBuffer succeeded
+audio-dsound D           dsound.cpp:506  _dsound_start_voice              [   0.11235] Starting _dsound_update thread
+audio-dsound I           dsound.cpp:516  _dsound_start_voice              [   0.11271] Voice started
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11275] added dtor for object 002D6190, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11278] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11280] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11281] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11283] added dtor for object 002D65E0, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11284] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11286] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11287] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11289] added dtor for object 002D6798, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11290] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11291] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11293] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11294] added dtor for object 002D6930, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11300] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11302] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11303] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11305] added dtor for object 002D6AA8, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11311] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11312] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11313] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11315] added dtor for object 002D5F00, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11339] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11341] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11342] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11344] added dtor for object 002D6018, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11345] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11347] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11348] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11349] added dtor for object 002DACC0, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11351] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11352] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11353] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11355] added dtor for object 002DAED8, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11357] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11358] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11360] 
+dtor     D               dtor.c:184  _al_register_destructor          [   0.11361] added dtor for object 002DB070, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.11363] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11364] 
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.11365] 
+wav      I                wav.c:107  wav_open                         [   0.11379] Ignoring chunk: scot
+dtor     D               dtor.c:184  _al_register_destructor          [   0.14322] added dtor for object 002DB290, func 5CF023A6
+dtor     D               dtor.c:184  _al_register_destructor          [   0.16431] added dtor for object 002DB2E8, func 5CF023A6
+dtor     D               dtor.c:184  _al_register_destructor          [   0.16548] added dtor for object 002DB340, func 5CF023A6
+dtor     D               dtor.c:184  _al_register_destructor          [   0.16625] added dtor for object 002DB398, func 5CF023A6
+dtor     D               dtor.c:184  _al_register_destructor          [   0.16666] added dtor for object 002DB3F0, func 5CF023A6
+wav      I                wav.c:107  wav_open                         [   0.16684] Ignoring chunk: scot
+dtor     D               dtor.c:184  _al_register_destructor          [   0.18602] added dtor for object 002DAC00, func 5CF023A6
+dtor     D               dtor.c:184  _al_register_destructor          [   0.19611] added dtor for object 002DB588, func 5CF02419
+dtor     D               dtor.c:184  _al_register_destructor          [   0.19615] added dtor for object 002DB6A0, func 5CF02419
+dtor     D               dtor.c:184  _al_register_destructor          [   0.19618] added dtor for object 002DB7B8, func 5CF02419
+dtor     D               dtor.c:184  _al_register_destructor          [   0.19620] added dtor for object 002DB8D0, func 5CF02419
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19623] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19625]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19627]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19629] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19631]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19633]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19635] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19637]  0.707107 0.000000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19640]  0.000000 0.707107
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19642] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19644]  0.707107 0.000000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19646]  0.000000 0.707107
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19648] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19651]  0.346482 0.000000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19653]  0.000000 0.346482
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19655] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19657]  0.346482 0.000000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19659]  0.000000 0.346482
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19661] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19663]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19666]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [   0.19668] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19670]  0.045000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [   0.19673]  0.045000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.30803] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30808]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30810]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.30812] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30814]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30815]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.30818] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30819]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30821]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.30822] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30824]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.30825]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.63402] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63407]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63408]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.63410] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63411]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63413]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.63415] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63417]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63418]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.63419] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63421]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.63422]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.83503] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83508]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83510]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.83512] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83513]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83515]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.83516] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83518]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83521]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  14.83522] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83524]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  14.83525]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.03603] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03608]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03610]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.03612] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03613]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03615]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.03616] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03618]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03619]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.03620] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03622]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.03623]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.26206] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26211]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26213]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.26214] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26216]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26217]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.26219] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26220]  0.500000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26222]  0.500000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  15.26223] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26224]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  15.26226]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  18.76313] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  18.76319]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  18.76320]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  19.56417] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  19.56422]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  19.56424]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  21.09021] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  21.09026]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  21.09028]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  23.59327] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  23.59332]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  23.59334]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  24.46830] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  24.46835]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  24.46837]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  26.84338] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  26.84343]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  26.84345]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  26.84347] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  26.84348]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  26.84350]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  27.21942] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  27.21947]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  27.21949]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  27.21951] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  27.21953]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  27.21954]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  30.52252] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  30.52256]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  30.52258]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  31.32359] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  31.32365]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  31.32367]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  31.32369] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  31.32370]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  31.32372]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  31.82456] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  31.82461]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  31.82463]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  32.25060] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  32.25066]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  32.25067]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  32.72662] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  32.72669]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  32.72671]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  32.72673] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  32.72674]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  32.72676]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  33.15264] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  33.15270]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  33.15272]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  33.88061] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  33.88066]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  33.88068]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  40.40984] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  40.40990]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  40.40992]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  40.76086] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  40.76092]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  40.76094]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  43.73892] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  43.73897]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  43.73899]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  45.73995] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  45.74000]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  45.74002]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  51.34115] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  51.34120]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  51.34122]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  54.07022] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  54.07028]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  54.07029]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  54.32025] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  54.32030]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  54.32032]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  54.49629] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  54.49636]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  54.49639]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  55.82330] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  55.82335]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  55.82337]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  56.09932] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  56.09942]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  56.09944]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  58.57538] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  58.57543]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  58.57546]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  58.85136] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  58.85140]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  58.85142]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  62.85350] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  62.85355]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  62.85357]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  64.15458] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  64.15464]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  64.15466]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  64.53057] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  64.53062]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  64.53064]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  66.50767] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  66.50773]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  66.50774]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  66.70863] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  66.70869]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  66.70870]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  66.98569] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  66.98575]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  66.98577]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  71.04173] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  71.04179]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  71.04180]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  75.61689] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  75.61694]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  75.61696]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  79.36698] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  79.36703]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  79.36704]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  79.64205] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  79.64210]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  79.64212]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  79.64214] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  79.64215]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  79.64217]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  82.44409] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  82.44414]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  82.44416]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  82.99812] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  82.99817]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  82.99818]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  95.15053] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  95.15058]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  95.15062]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  97.45255] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.45260]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.45262]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  97.62760] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.62765]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.62767]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  97.80459] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.80463]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.80465]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  97.80467] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.80469]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  97.80470]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [  99.65669] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  99.65675]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [  99.65676]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 100.83269] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 100.83276]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 100.83279]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 100.83281] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 100.83282]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 100.83284]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 101.00869] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 101.00874]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 101.00876]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 102.78680] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 102.78686]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 102.78688]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 103.01279] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 103.01286]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 103.01289]  0.125000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 103.01291] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 103.01293]  0.320000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 103.01294]  0.320000
+audio    D          kcm_mixer.c:121  _al_rechannel_matrix             [ 103.21367] sample matrix:
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 103.21372]  0.125000
+audio    D          kcm_mixer.c:127  _al_rechannel_matrix             [ 103.21374]  0.125000
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18463] removed dtor for object 002D6190
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18469] removed dtor for object 002D65E0
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18472] removed dtor for object 002D6798
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18480] removed dtor for object 002D6930
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18482] removed dtor for object 002D6AA8
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18484] removed dtor for object 002D5F00
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18486] removed dtor for object 002D6018
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18487] removed dtor for object 002DACC0
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18489] removed dtor for object 002DAED8
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18491] removed dtor for object 002DB070
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18492] removed dtor for object 002D5C68
+audio-dsound D           dsound.cpp:526  _dsound_stop_voice               [ 112.18494] Stopping voice
+audio-dsound D           dsound.cpp:542  _dsound_stop_voice               [ 112.18495] Joining thread
+audio-dsound D           dsound.cpp:548  _dsound_stop_voice               [ 112.18929] Joined thread
+audio-dsound D           dsound.cpp:550  _dsound_stop_voice               [ 112.18938] Destroying thread
+audio-dsound D           dsound.cpp:552  _dsound_stop_voice               [ 112.18942] Thread destroyed
+audio-dsound D           dsound.cpp:555  _dsound_stop_voice               [ 112.18946] Releasing buffer
+audio-dsound I           dsound.cpp:559  _dsound_stop_voice               [ 112.18950] Voice stopped
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18956] removed dtor for object 002D44B8
+audio-dsound D           dsound.cpp:375  _dsound_deallocate_voice         [ 112.18960] Deallocating voice
+audio-dsound D           dsound.cpp:380  _dsound_deallocate_voice         [ 112.18964] Deallocated voice
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.18969] calling dtor for object 002DB8D0, func 5CF02419
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18973] removed dtor for object 002DB8D0
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.18977] calling dtor for object 002DB7B8, func 5CF02419
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18980] removed dtor for object 002DB7B8
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.18984] calling dtor for object 002DB6A0, func 5CF02419
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18988] removed dtor for object 002DB6A0
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.18992] calling dtor for object 002DB588, func 5CF02419
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.18995] removed dtor for object 002DB588
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.18999] calling dtor for object 002DAC00, func 5CF023A6
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.19003] removed dtor for object 002DAC00
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.19472] calling dtor for object 002DB3F0, func 5CF023A6
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.19477] removed dtor for object 002DB3F0
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.19482] calling dtor for object 002DB398, func 5CF023A6
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.19483] removed dtor for object 002DB398
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.19501] calling dtor for object 002DB340, func 5CF023A6
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.19503] removed dtor for object 002DB340
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.19523] calling dtor for object 002DB2E8, func 5CF023A6
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.19525] removed dtor for object 002DB2E8
+dtor     D               dtor.c:114  _al_run_destructors              [ 112.19548] calling dtor for object 002DB290, func 5CF023A6
+dtor     D               dtor.c:214  _al_unregister_destructor        [ 112.19550] removed dtor for object 002DB290
+audio-dsound D           dsound.cpp:289  _dsound_close                    [ 112.20414] Releasing device
+audio-dsound D           dsound.cpp:291  _dsound_close                    [ 112.21680] Released device
+audio-dsound I           dsound.cpp:294  _dsound_close                    [ 112.21686] DirectSound closed

@@ -1,0 +1,29 @@
+﻿Build started 25.10.2013 21:11:16.
+     1>Project "C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Tanks_0_0_1\Tanks_0_0_1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Tanks_0_0_1.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Release\Tanks_0_0_1.exe" /NOLOGO GLAUX.LIB glfw3.lib glu32.lib opengl32.lib "allegro-5.0.10-monolith-md-debug.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Tanks_0_0_1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Release\Tanks_0_0_1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Release\Tanks_0_0_1.lib" /MACHINE:X86 Release\BaseTank.obj
+         Release\Bullet.obj
+         Release\EnemyTank.obj
+         Release\Engine.obj
+         Release\Mapa.obj
+         Release\Menu.obj
+         Release\Settings.obj
+         Release\tMain.obj
+         Release\UserTank.obj
+         Generating code
+         Finished generating code
+         Tanks_0_0_1.vcxproj -> C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Release\Tanks_0_0_1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Release\Tanks_0_0_1.exe;#1" /manifest Release\Tanks_0_0_1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Tanks_0_0_1.unsuccessfulbuild".
+         Touching "Release\Tanks_0_0_1.lastbuildstate".
+     1>Done Building Project "C:\Users\Igor\Documents\Visual Studio 2010\Projects\Tanks_0_0_1\Tanks_0_0_1\Tanks_0_0_1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.27
